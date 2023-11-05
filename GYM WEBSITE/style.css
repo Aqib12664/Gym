@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: fantasy;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/bg.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+/* header::before {
+    content: "";
+ 
+    opacity: 0.3;
+} */
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 130px;
+    top: 8px;
+}
+
+.left img {
+    position: relative;
+    left: 18px;
+    width: 85px;
+    /* filter: invert(100%); */
+    background-color: transparent;
+    background: linear-gradient(blue,red,green,orange,purple);
+border-radius: 122%;
+padding: 2px;
+
+}
+
+.left div {
+    text-align: center;
+    font-size: 18px;
+    color: #551A8B;
+}
+
+.mid {
+    /* border: 2px solid rgb(35, 81, 180); */
+    display: block;
+    margin: 10px auto;
+    width: 55%;
+}
+
+.right {
+    position: absolute;
+    right: 32px;
+    top: 20px;
+    /* border: 2px solid rgb(25, 209, 96); */
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+
+
+}
+
+.navbar li {
+    font-size: 25px;
+
+    display: inline-block;
+}
+
+.navbar li a {
+    color: #551A8B;
+    display: inline-block;
+    text-decoration: none;
+    padding: 9px 23px;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: fantasy;
+    margin: 0px 9px;
+    background-color: transparent;
+    color: #551A8B;
+    padding: 10px 15px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: opacity(50%);
+    background-color: gray;
+    color: white;
+}
+
+.container {
+    border: 2PX SOLID black;
+    margin: 75px 120px;
+    padding: 30px;
+    border-radius: 12px;
+    width: 45%;
+    filter: blur(100%);
+
+
+}
+
+.formgroup input {
+    font-family: fantasy;
+    text-align: center;
+    width: 100%;
+    margin: 5px auto;
+    border: 4px solid black;
+    padding: 14px;
+    display: block;
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+.container h1 {
+    font-family: fantasy;
+    text-align: center;
+    color: #551A8B;
+}
+
+.container button {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    margin: 9px auto;
+}
